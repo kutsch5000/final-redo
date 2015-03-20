@@ -1,0 +1,82 @@
+body{
+	background: url("../img/triangles.png");
+	font-family: 'Lora', serif;
+}
+
+
+nav{
+	background: black;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+}
+
+nav i{
+	color: white;
+}
+nav ul{
+	color: white;
+	text-align: center;
+}
+
+ul{
+	text-align: center;
+}
+
+ul:nth-child(3){
+	padding-left: 0;
+	position: relative;
+	top: -59px;
+}
+
+li{
+	display: inline;
+}
+
+nav img{
+	position: fixed;
+	top: -1em;
+}
+
+section{
+	position: absolute;
+	top: 200px;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-align: center;
+}
+p{
+	text-align: center;
+	color: rgb(230, 230, 230);
+}
+
+h3{
+	text-align: center;
+	position: relative;
+	top: -45px;
+}
+
+.yellow{
+	background-color: #F2C61F;
+}
+
+.blue{
+	background-color: #00B5AD;
+}
+
+.red{
+	background-color: #D95C5C;
+}
+
+.green{
+	background-color: #5BBD72;
+}
