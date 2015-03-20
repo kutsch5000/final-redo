@@ -65,6 +65,10 @@ h3{
 	top: -45px;
 }
 
+section img:hover{
+	cursor: pointer;
+}
+
 .yellow{
 	background-color: #F2C61F;
 }
